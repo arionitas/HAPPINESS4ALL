@@ -3,12 +3,3 @@ body {
     padding: 0px;
     background-image: url("D:\Coding Bootcamp\Random-Quote-App\Random-QUOTES-2\assets\images\arxpattern.png");
   }
-
-  .background
-  {
-    width: 100%;
-    height: 100vh;
-    background-image: url(arxpattern.png);
-    background-repeat: repeat;
-    
-  }
