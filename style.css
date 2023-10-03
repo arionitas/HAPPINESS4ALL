@@ -1,5 +1,21 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background-image: url("D:\Coding Bootcamp\Random-Quote-App\Random-QUOTES-2\assets\images\arxpattern.png");
-  }
+  background-image: url(arxpattern.png);
+  background-repeat: repeat;
+}
+
+body,
+h1,
+h3,
+p {
+  font-family: 'Lucida Sans', Helvetica,  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.row {
+  text-align: center;
+  padding-top: 50px;
+}
