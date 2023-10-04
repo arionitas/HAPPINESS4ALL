@@ -8,7 +8,7 @@ function getNewQuote() {
         format: 'json'
      },
      success: function(response) {
-        console.log(response.quoteTest);
+        console.log(response.quoteText);
      }
    }); 
   }
