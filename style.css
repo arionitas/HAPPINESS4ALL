@@ -23,3 +23,12 @@ p {
 hr {
   border-bottom: 3px solid black;
 }
+
+.quote-box {
+border: 1px dashed black;
+border-radius: 15px;
+padding: 10px;
+margin-bottom: 15px;
+
+
+}
