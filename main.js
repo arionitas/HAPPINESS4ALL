@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+
+    var quote;
+    var author;
+
 function getNewQuote() {
    $.ajax({
      url: 'https://api.forismatic.com/api/1.0/',
@@ -10,9 +14,26 @@ function getNewQuote() {
         format: 'jsonp'
      },
      success: function(response) {
-        console.log(response.quoteText);
+        quote = response.quoteText;
+        author = response.quoteAuthor;
+        $('#quote').text(quote);
+        if (author) {
+            $('#author').text('said by ' + author);
+        } else {
+            $('#author').text('- unkown');
+        }
      }
    }); 
   }
   getNewQuote();
+
+  $('.get-quote').on('click', function(event) {
+    event.preventDefault();
+    getNewQuote();
+  });
+
+  $('.share-quote').on('click', function(event){
+    event.preventDefault();
+    window.open('https://www.instagram.com/') + encodeURIComponent(quote+ ' - author')
+  });
 });
