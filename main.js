@@ -34,6 +34,6 @@ function getNewQuote() {
 
   $('.share-quote').on('click', function(event){
     event.preventDefault();
-    window.open('https://www.instagram.com/') + encodeURIComponent(quote+ ' - author')
+    window.open('https://www.instagram.com/arxivn/') + encodeURIComponent(quote+ ' - author')
   });
 });
