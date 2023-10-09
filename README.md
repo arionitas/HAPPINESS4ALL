@@ -1,7 +1,11 @@
 # Random-QUOTES-2
 MAKING QUOTES RANDOMLY FOR INSPIRATION
 
-INTRODUCTION:
+## Deployed Project:
+
+https://arionitas.github.io/HAPPINESS4ALL/
+
+### INTRODUCTION:
 
 Firstly thank you to Stephen Mayeux for his amazing tutorials and also for responding back to me in super time when I ran into an error.
 Due to modifying and adding my own designs to this tutorial, I ran into a few issues which were quickly solved later on thanks to double and triple checking the code structure.
